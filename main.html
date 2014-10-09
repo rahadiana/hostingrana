@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="https://raw.githubusercontent.com/rahadiana/hostingrana/master/main.css" type="text/css" media="all">
+
+<script type="text/javascript" src="https://raw.githubusercontent.com/rahadiana/hostingrana/master/main.js"></script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="example">
+			<div id="imageMenu">
+			<ul>
+				<li class="landscapes"><a href="http://www.aaronbirchphotography.com">Landscapes</a></li>
+				<li class="people"><a href="http://www.aaronbirchphotography.com">People</a></li>
+				<li class="nature"><a href="http://www.aaronbirchphotography.com">Nature</a></li>
+				<li class="urban"><a href="http://www.aaronbirchphotography.com">Urban</a></li>
+				<li class="abstract"><a href="http://www.aaronbirchphotography.com">Abstract</a></li>
+			</ul>
+			</div>
+<script type="text/javascript">
+			
+			window.addEvent('domready', function(){
+				var myMenu = new ImageMenu($$('#imageMenu a'),{openWidth:310, border:2, onOpen:function(e,i){alert(e);}});
+			});
+		</script>
+		</div>
+		
+
+
+</body>
+</html>
