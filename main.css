@@ -1,0 +1,438 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+
+body { line-height: 1.5; background: #fff; margin:1.5em 0; }
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight:400; }
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+a img { border: none; }
+
+
+body {
+	color: #797979;
+	font-family: Verdana, Arial;
+	font-size: 75%;
+}
+
+a {
+	color: #607293;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #354158;
+}
+
+
+#container {
+	width: 500px;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#container #logo {
+	background: url(../img/logo.gif) no-repeat top left;
+	height: 44px;
+	
+	padding-bottom: 5px;
+	border-bottom: 1px solid #797979;
+	margin-bottom: 20px;
+}
+
+#container #logo h1 {
+	text-indent: -9999px;
+}
+
+#footer {
+	margin-top: 20px;
+}
+
+.nav {
+	float: right;
+	margin-top: -15px;
+}
+
+
+
+h2 {
+	font-size: 2.2em;
+	margin: 0;
+	border-bottom: 1px solid #797979;
+	margin-bottom: 5px;
+	color: #354158;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin-top: 30px;
+	border-bottom: 1px solid #797979;
+	margin-bottom: 10px;
+	color: #607293;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.desc {
+	margin: -15px 0 40px 0;
+}
+
+.desc p {
+	margin-bottom: 10px;
+}
+
+.home .menuItem h3 {
+	font-size: 1.8em;
+	line-height: 1.0em;
+	float: none;
+	position: relative;
+	display: block;
+	border-bottom: none;
+	margin: 0;
+}
+
+.home .menuItem p {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	display: block;
+	border-bottom: none;
+}
+
+.home .menuItem {
+	display: block;
+	position: relative;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #797979;
+	outline: none;
+	cursor: pointer;
+	height: 40px;
+	border-bottom: 1px solid #797979;
+}
+
+.home  .menuItem:hover {
+	background-color: #f1f1f1;
+}
+
+.home h2 {
+	color: #354158;
+	margin-bottom: 0px;
+}
+
+.arrow {
+	font-size: 4em;
+	position: absolute;
+	right: 0px;
+	top: -16px;
+	color: #b9b9b9;
+}
+
+.home  .menuItem:hover .arrow {
+	right: -4px;
+}
+
+
+.home h2 {
+	background: url(../img/mootools-plugins.gif) no-repeat top left;
+	width: 500px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+.home .imagemenu {
+	background: url(../img/nav-imagemenu.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .validate {
+	background: url(../img/nav-validate.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .lightbox {
+	background: url(../img/nav-lightbox.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .multibox {
+	background: url(../img/nav-multibox.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .slideshow {
+	background: url(../img/nav-slideshow.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .sortabletable {
+	background: url(../img/nav-sortabletable.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .slider {
+	background: url(../img/nav-slider.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .roundedcorners {
+	background: url(../img/nav-roundedcorners.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+.home .pageloader {
+	background: url(../img/nav-pageloader.gif) no-repeat top left;
+	width: 500px;
+	height: 22px;
+	text-indent: -9999px;
+}
+
+
+
+
+h2.imagemenu {
+	background: url(../img/title-imagemenu.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.validate {
+	background: url(../img/title-validate.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.lightbox {
+	background: url(../img/title-lightbox.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.multibox {
+	background: url(../img/title-multibox.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.slideshow {
+	background: url(../img/title-slideshow.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.sortabletable {
+	background: url(../img/title-sortabletable.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.slider {
+	background: url(../img/title-slider.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.roundedcorners {
+	background: url(../img/title-roundedcorners.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h2.pageloader {
+	background: url(../img/title-pageloader.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+
+
+
+h3.example {
+	background: url(../img/heading-example.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.features {
+	background: url(../img/heading-features.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.usage {
+	background: url(../img/heading-usage.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.options {
+	background: url(../img/heading-options.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.compatibility {
+	background: url(../img/heading-browser.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.requirements {
+	background: url(../img/heading-requirements.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+h3.downloads {
+	background: url(../img/heading-downloads.gif) no-repeat top left;
+	height: 30px;
+	text-indent: -9999px;
+}
+
+
+
+
+
+.version {
+	font-family: Courier;
+	font-size: 1em;
+}
+
+ul {
+	margin-left: 15px;
+}
+
+dt {
+	float: left;
+}
+
+dd {
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+
+.description {
+	margin-top: 10px;
+}
+
+code {
+	font-family: Courier;
+}
+
+#usage p {
+	margin: 10px 0px 5px 0px;
+}
+
+/*
+Baruu 1
+
+*/
+
+
+/**************************************************************
+
+	Image Menu
+	v 2.2
+
+**************************************************************/
+
+
+#imageMenu {
+	position: relative;
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+}
+
+
+
+#imageMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1000px;
+	
+	}
+
+#imageMenu ul li {
+	float: left;
+}
+
+#imageMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:98px;
+	height: 200px;
+}
+
+#imageMenu ul li.landscapes a {
+	background: url(images/landscapes.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.people a {
+	background: url(images/people.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.nature a {
+	background: url(images/nature.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.urban a {
+	background: url(images/urban.jpg) repeat scroll 0%;
+}
+
+#imageMenu ul li.abstract a {
+	background: url(images/abstract.jpg) repeat scroll 0%;
+	width: 310px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*************************************************************/
+
